@@ -1,7 +1,7 @@
 package Arrays.Level_1;
 
 public class FloorAndCeil {
-    public int search(int[] nums, int target) {
+    public void search(int[] nums, int target) {
         int lo = 0;
         int hi = nums.length - 1;
         int floor = 0;
@@ -23,6 +23,7 @@ public class FloorAndCeil {
                 break;
             }
         }
-        return -1;
+        System.out.println(floor);
+        System.out.println(ceil);
     }
 }
